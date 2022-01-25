@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #ced6e0;
+}
+form#formAmbiente {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #033d60;
+    width: 700px;
+    height: 410px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    padding: 25px;
+    color: white;
+}
+h1.title {
+    text-align: center;
+    display: flex;
+}
+select {
+    position: relative;
+    top: 100px;
+    left: 276px;
+}
+input.acessar {
+    position: relative;
+    left: 444px;
+    top: 100px;
+}
+.logout {
+    position: relative;
+    top: -91px;
+    left: -23px;
+    display: flex;
+    justify-content: flex-end;
+}
+.visualizar_usuario {
+    position: relative;
+    top: -70px;
+    display: flex;
+    justify-content: flex-end;
+}
+.ambientes {
+    text-align: center;
+}
+h4{
+    text-transform: uppercase;
+}
+a {
+    text-decoration: none;
+    color: cornsilk;
+    border: 1;
+    text-decoration: none;
+    border-width: 2.5px;
+    border-style: solid;
+}
+a:hover{
+  background-color:  #079992;
+  color: cornsilk;
+    text-decoration: none;
+}
